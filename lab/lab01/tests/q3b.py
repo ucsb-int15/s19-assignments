@@ -1,0 +1,27 @@
+test = {   'name': 'q3b',
+    'points': 1,
+    'suites': [   {   'cases': [   {   'code': '>>> array_sum([1], [1])\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> array_sum([-1], [1])\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> array_sum([1], [-1])\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> array_sum([1, 2, 3], [1, '
+                                               '2, 3])\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> array_sum([1, 5, 2], [3, '
+                                               '6, 6])\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> type(array_sum([], [])) is '
+                                               'np.ndarray\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

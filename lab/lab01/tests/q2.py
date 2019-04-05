@@ -1,0 +1,12 @@
+test = {   'name': 'q2',
+    'points': 1,
+    'suites': [   {   'cases': [   {   'code': '>>> arr\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> type(arr) is np.ndarray\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
