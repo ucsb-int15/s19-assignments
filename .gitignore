@@ -24,3 +24,6 @@ vendor
 # Jupyter Notebook
 .ipynb_checkpoints
 .ok_messages
+
+__pycache__
+*.pyc
