@@ -1,16 +1,16 @@
 test = {   'name': 'q6',
-    'points': 2,
-    'suites': [   {   'cases': [   {   'code': '>>> len(upper)\n19',
+    'points': 1,
+    'suites': [   {   'cases': [   {   'code': ">>> 'Hour' in calls.columns\n"
+                                               'True',
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': '>>> len(lower)\n19',
+                                   {   'code': '>>> set(calls["Hour"]) == '
+                                               'set(range(24))\n'
+                                               'True',
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': '>>> all(lower < upper)\nTrue',
-                                       'hidden': False,
-                                       'locked': False},
-                                   {   'code': '>>> (frac_covering > 0.5) & '
-                                               '(frac_covering < 1)\n'
+                                   {   'code': '>>> list(calls["Hour"][:5]) == '
+                                               '[22, 21, 20, 8, 13]\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False}],

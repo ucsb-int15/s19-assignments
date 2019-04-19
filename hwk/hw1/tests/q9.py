@@ -1,16 +1,14 @@
-test = {   'name': 'q6',
+test = {   'name': 'q9',
     'points': 2,
-    'suites': [   {   'cases': [   {   'code': '>>> len(upper)\n19',
+    'suites': [   {   'cases': [   {   'code': '>>> len(predicted_probs)\n98',
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': '>>> len(lower)\n19',
+                                   {   'code': '>>> len(forecast_date)\n98',
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': '>>> all(lower < upper)\nTrue',
-                                       'hidden': False,
-                                       'locked': False},
-                                   {   'code': '>>> (frac_covering > 0.5) & '
-                                               '(frac_covering < 1)\n'
+                                   {   'code': '>>> '
+                                               'isinstance(forecast_date.values[0], '
+                                               'np.datetime64)\n'
                                                'True',
                                        'hidden': False,
                                        'locked': False}],
