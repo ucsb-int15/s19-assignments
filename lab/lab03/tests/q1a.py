@@ -2,8 +2,8 @@ test = {   'name': 'q1a',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> '
                                                'calls_by_cvlegend_and_offense["LARCENY", '
-                                               '"THEFT FROM PERSON"] == 24;\n'
-                                               '>>> \n'
+                                               '"THEFT FROM PERSON"] == 24\n'
+                                               '>>>True'
                                                'True',
                                        'hidden': False,
                                        'locked': False},
