@@ -1,4 +1,4 @@
-test = {   'name': 'q5',
+test = {   'name': 'q8',
     'points': 2,
     'suites': [   {   'cases': [   {   'code': '>>> isinstance(candidate, '
                                                'str)\n'
